@@ -1,3 +1,4 @@
+import Button from './components/Botton';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import './globals.css';
@@ -21,6 +22,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <Navbar />
+
+        <Button />
         {children}
       </body>
     </html>

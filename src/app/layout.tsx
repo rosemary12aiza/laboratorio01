@@ -1,6 +1,6 @@
-import Button from './components/Botton';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -23,8 +23,8 @@ export default function RootLayout({
         <Header />
         <Navbar />
 
-        <Button />
         {children}
+        <Footer />
       </body>
     </html>
   );
